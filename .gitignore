@@ -1,0 +1,7 @@
+__pycache__
+.venv/
+magisterka.egg-info
+
+data/*
+!data/*.pdf
+!data/*.py
