@@ -1,7 +1,16 @@
 __pycache__
 .venv/
 magisterka.egg-info
+.env
 
-data/*
-!data/*.pdf
-!data/*.py
+data/**/*.parquet
+data/**/*.jsonl
+data/**/*.csv
+data/**/*.tsv
+
+!data/**/*.pdf
+!data/**/*.py
+
+!data/**/.gitkeep
+!data/**/README.md
+
